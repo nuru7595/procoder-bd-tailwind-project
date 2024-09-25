@@ -4,7 +4,8 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>TailWindCss - ProCoderBD</title>
-        <link rel="stylesheet" crossorigin href="assets/index-3HJtxi2s.css" />
+
+        <link rel="stylesheet" crossorigin href="assets/style.css" />
     </head>
     <body class="bg-blue-100">
         <header class="bg-blue-500 text-white py-5 relative">
@@ -54,14 +55,14 @@
                         id="navMenu"
                         class="absolute top-16 bg-blue-500 w-full left-0 text-center font-semibold hidden sm:static sm:flex"
                     >
-                        <li class="mb-3 sm:mb-0 ml-4">
+                        <li class="mb-3 sm:mb-0 sm:ml-4">
                             <a
                                 href="#"
                                 class="hover:transition-colors hover:text-blue-900"
                                 >Home</a
                             >
                         </li>
-                        <li class="mb-3 sm:mb-0 ml-4">
+                        <li class="mb-3 sm:mb-0 sm:ml-4">
                             <a
                                 href="#"
                                 class="hover:transition-colors hover:text-blue-900"
@@ -69,14 +70,14 @@
                                 Contact
                             </a>
                         </li>
-                        <li class="mb-3 sm:mb-0 ml-4">
+                        <li class="mb-3 sm:mb-0 sm:ml-4">
                             <a
                                 href="#"
                                 class="hover:transition-colors hover:text-blue-900"
                                 >About Us</a
                             >
                         </li>
-                        <li class="mb-3 sm:mb-0 ml-4">
+                        <li class="mb-3 sm:mb-0 sm:ml-4">
                             <a
                                 href="#"
                                 class="hover:transition-colors hover:text-blue-900"
@@ -89,12 +90,14 @@
         </header>
         <main>
             <div
-                class="container w-3/4 mx-auto flex flex-col sm:flex-row sm:items-center sm:h-screen"
+                class="container w-3/4 mx-auto flex flex-col sm:flex-row sm:items-center"
             >
                 <div class="mt-8 mb-4 sm:w-1/2 sm:p-5 sm:order-2">
-                    <img src="assets/login-CTTMmeSg.svg" />
+                    <img src="assets/login.svg" />
                 </div>
-                <div class="bg-white p-6 mb-8 mt-4 rounded sm:w-1/2 sm:order-1">
+                <div
+                    class="bg-white p-6 mb-8 mt-4 rounded sm:w-1/2 sm:order-1 sm:mb-4"
+                >
                     <h3 class="text-2xl font-bold text-center mb-2">Sign Up</h3>
                     <p class="text-center font-semibold mb-4">
                         Enter your details
@@ -133,6 +136,36 @@
                         >
                     </p>
                 </div>
+            </div>
+            <div
+                class="container w-3/4 mx-auto border-4 border-blue-500 rounded-lg p-4 text-blue-500 text-center mb-4 font-bold"
+            >
+                <p>Status: <span class="text-red-600">Closed!</span></p>
+                <p>
+                    Started on:
+                    <span class="text-green-600">23 September 2024</span>
+                </p>
+                <p>
+                    Last Updated:
+                    <span class="text-green-600">25 September 2024</span>
+                </p>
+                <p>
+                    Total Time Spent:
+                    <span class="text-green-600">05H 45M</span>
+                </p>
+                <p>
+                    Course:
+                    <a
+                        href="https://www.youtube.com/watch?v=7lmoLxbUENM"
+                        class="underline text-green-600"
+                        >Pro Coder BD</a
+                    >
+                </p>
+            </div>
+            <div
+                class="container w-3/4 mx-auto border-4 border-blue-500 rounded-lg p-4 text-blue-500 text-center mb-4 font-bold"
+            >
+                <p>Created by <span class="text-green-600">Nuru</span></p>
             </div>
         </main>
         <script src="assets/script.js"></script>
